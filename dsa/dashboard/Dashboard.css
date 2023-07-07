@@ -1,0 +1,89 @@
+.dash-content .col-12 {
+  background-color: var(--wild-sand);
+  margin-top: 8px;
+}
+
+.dash-content span {
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.dash-content .text-truncate span:first-child {
+  color: var(--cold-steel-color);
+}
+
+.dash-content .text-truncate span:last-child {
+  color: var(--gray-color);
+}
+
+.overdue-btn,
+.card-label {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-inline: 20px;
+  position: absolute;
+  top: -10px;
+  right: 0;
+}
+
+.overdue-btn:hover {
+  background-color: var(--bg-red-darker);
+}
+
+.stacked-bar span {
+  font-size: 0.8rem;
+}
+
+.stacked-bar-month {
+  color: var(--carnation-color);
+}
+
+.downloaded-pdf {
+  font-size: 1.3rem;
+}
+
+.wild-sand-bg {
+  background-color: var(--wild-sand);
+}
+
+.date-container {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+
+  color: #7d7f88;
+}
+
+.property__details__text .no-bg-title {
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.nes__dashboard__loanmanagement form select {
+  background: #f6f6f6;
+  border-radius: 3px;
+}
+
+.nes__dashboard__loanmanagement span {
+  color: #0070c0;
+  font-weight: 400;
+  font-size: 12px;
+  color: #0070c0;
+}
+
+@media (max-width: 1250px) {
+  .card__paynow__invoice {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 498px) {
+  .accept-deny {
+    flex-direction: column;
+    order: 2;
+    margin: 1rem 0rem 0rem;
+  }
+}

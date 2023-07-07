@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root {
+  /* colors */
+  --primary-color: #278fd9;
+  --primary-color-darker: #1980c9;
+  --cold-steel-color: #656f7b;
+  --color-white: #ffffff;
+  --Pattens-Blue: #e0f2ff;
+  --carnation-color: #fc5c67;
+  --wild-watermelon-color: #fe5e6a;
+  --wild-sand: #f6f6f6;
+  --bg-red: #ff000e;
+  --bg-red-darker: #b7010d;
+  --gray-color: #b3b4b8;
+  --silver-surfer: #7d7f88;
+
+  /* divider */
+  --divider: #d3d3d3;
+}
+
+body {
+  font-family: 'Bahnschrift';
+}
+
+a,
+a:hover,
+a:focus {
+  color: var(--primary-color);
+  text-decoration: none !important;
+}
+
+.btn {
+  --bs-btn-padding-y: 0.5rem;
+}
+
+.input-group > .form-control,
+.input-group > .form-select,
+.input-group > .form-floating {
+  background: #f8f8f8;
+  border: 1px solid #e8ecf4;
+}
+/* remove outline from button */
+button:focus,
+button:active,
+button:active:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.card {
+  border-radius: 10.3896px;
+}
+
+.shadow-sm {
+  /* box-shadow: 0px 7.68538px 43.4338px rgba(0, 0, 0, 0.07) !important; */
+  box-shadow: 0px 6px 26px rgba(0, 0, 0, 0.07);
+}
+
+.carnation-color {
+  color: var(--carnation-color);
+}
+
+.color-blue {
+  color: var(--primary-color) !important;
+}
+
+.bg-color-primary {
+  background-color: var(--primary-color);
+}
+
+.bg-color-red {
+  background-color: var(--bg-red);
+}
+
+.border-color-primary {
+  border: 1px solid var(--primary-color);
+}
+
+.bg-color-primary-darker {
+  background-color: var(--primary-color-darker);
+}
+
+.txt-primary {
+  color: var(--primary-color);
+}
+
+.divider {
+  height: 1px;
+  background-color: var(--divider);
+}
+
+.bg-pattens-blue {
+  background-color: var(--Pattens-Blue);
+}
+.btn.bg-color-primary,
+.btn.bg-color-primary-darker {
+  outline: none;
+  border: none;
+}
+
+.btn.bg-color-primary:hover,
+.btn.bg-color-primary-darker:hover {
+  background-color: var(--primary-color-darker);
+}
+
+.btn.btn-color-primary {
+  background: var(--primary-color);
+  outline: none;
+  border: none;
+  color: #ffffff;
+}
+
+.btn.btn-color-primary:hover {
+  background-color: var(--primary-color-darker);
+}
+
+.btn.btn-color-green {
+  outline: none;
+  border: none;
+  color: #000000;
+  background-color: #eaf5e7;
+  border: 1.59418px solid #88c879;
+  border-radius: 159.418px;
+}
+
+/* .btn.btn-color-green:hover {
+  background-color: var(--primary-color-darker);
+} */
+
+.btn.btn-color-outline-primary {
+  background: transparent;
+  outline: none;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn.btn-color-outline-primary:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.btn.btn-color-outline-secondary {
+  background: transparent;
+  outline: none;
+  border: 1px solid var(--wild-watermelon-color);
+  color: var(--wild-watermelon-color);
+}
+
+.btn.btn-color-outline-secondary:hover {
+  background-color: var(--wild-watermelon-color);
+  color: #ffffff;
+}
+
+.btn.btn-color-danger {
+  background: var(--carnation-color);
+  outline: none;
+  border: 1px solid var(--carnation-color);
+  color: #ffffff;
+}
+
+.rounded-100 {
+  border-radius: 100px;
+}
+
+.form-control {
+  padding: 0.5rem 0.75rem;
+}
+
+.btn-rounded {
+  width: 220px;
+  padding: 10px 12px;
+}
+
+.card-link {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--carnation-color);
+}
+
+/* payment status */
+
+.Paid {
+  background: #eaf5e7;
+  border: 0.791323px solid #88c879;
+  font-weight: 400;
+  color: #000000;
+}
+.Processing {
+  background: #ffedcc;
+  border: 0.791323px solid #ffb630;
+  font-weight: 400;
+  color: #000000;
+}
+.Pending {
+  background: #ffe1e1;
+  border: 0.791323px solid #fc5c67;
+  font-weight: 400;
+  color: #000000;
+}
+.Overdue {
+  background: #ff000e;
+  border: 0.791323px solid #b7010d;
+  font-weight: 400;
+  color: #ffffff;
+}
+.bg-sky {
+  background-color: #ecf7ff;
+}
+.text-bold {
+  color: #000000;
+  font-weight: 700;
+  /* line-height: 2.4px; */
+  font-size: 44.26px;
+  margin-top: 15px;
+}
+.text-grey {
+  color: #282431;
+  font-weight: 400;
+  font-size: 26.57px;
+  line-height: 87.41px;
+  text-align: center;
+  opacity: 0.5;
+  margin: 8px 0;
+}
+.astric {
+  color: #ff656f;
+}
+
+.custom__card__shadow {
+  box-shadow: 0px 4.05785px 17.7531px rgba(0, 0, 0, 0.07);
+  border-radius: 13.3482px;
+}

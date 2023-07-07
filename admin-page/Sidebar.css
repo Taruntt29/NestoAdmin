@@ -1,0 +1,26 @@
+.admin-sidebar__link.sidebar-active {
+  box-shadow: 0px 3px 12px rgba(69, 69, 69, 0.15) !important;
+  margin-block: 1rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+}
+
+.sidebar-active span {
+  font-weight: 400;
+  font-size: 18px;
+  color: #020202;
+}
+
+.profile__sidebar__wrapper__icon {
+  background-color: #278fd9;
+}
+
+.admin-dashboard-sidebar .profile__sidebar__wrapper .nav-link.active {
+  box-shadow: 0px 3px 12px rgba(69, 69, 69, 0.15) !important;
+  margin-block: 1rem;
+  background-color: #ffffff !important;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.13) !important;
+  border-radius: 15px;
+  color: #000000 !important;
+}

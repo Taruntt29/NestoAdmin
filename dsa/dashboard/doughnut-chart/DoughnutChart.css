@@ -1,0 +1,8 @@
+.doughnut-chart .card-title {
+  /* font-weight: 400 !important; */
+  font-size: 18px !important;
+}
+
+.doughnut-chart .text-truncate {
+  font-size: 0.85rem;
+}

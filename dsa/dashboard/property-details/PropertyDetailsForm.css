@@ -1,0 +1,107 @@
+.property__details__form input,
+.property__details__form select,
+.property__details__form textarea {
+  background: var(--wild-sand) !important;
+  border-radius: 3.60116px;
+  border: 0px;
+}
+
+.property__details__form label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000 !important;
+}
+
+input,
+select,
+textarea {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.property__details__form h4 {
+  font-weight: 400;
+  font-size: 26px;
+  color: #000000;
+}
+
+.property__details__form label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.property__details__form input,
+.property__details__form textarea {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.testimonial .card-title {
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  color: #1a1e25;
+}
+
+.testimonial .card-text,
+.testimonial button {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #7d7f88;
+}
+
+.testimonial button {
+  color: var(--primary-color);
+}
+
+.property__details__text .card-title,
+.property__details__iconcard .card-title {
+  font-weight: 600;
+  color: #282431;
+  font-size: 18px;
+}
+
+.property__details__iconcard .card-title {
+  font-size: 20px;
+}
+
+.property__details__text .card-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #535353;
+  font-family: 'Montserrat';
+}
+
+.property__details__iconcard__icontitle {
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+
+.property__details__iconcard__iconsubtitle {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #7d7f88;
+}
+
+@media (max-width: 921px) {
+  .nes__dashboard__largeicons .card-body .row,
+  .nes__dashboard__smallicons .card-body .row {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+  }
+}
+
+@media (max-width: 939px) {
+  .nes__dashboard__banks .card-body .row {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)) !important;
+    gap: 2rem;
+  }
+}

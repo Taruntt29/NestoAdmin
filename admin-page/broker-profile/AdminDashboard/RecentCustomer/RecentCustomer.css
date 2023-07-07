@@ -1,0 +1,36 @@
+.recent-customer {
+    padding-left: 20px;
+}
+.recent-customer-div {
+    box-shadow: 0px 0px 15px 0px rgba(237, 237, 237, 1);
+    width: 100%;
+    padding: 24px 16px;
+    border-radius: 12px;
+    height: 100%;
+}
+.recent-customer-heading-div {
+    display: flex;
+    justify-content: space-between;
+}
+.recent-customer-heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.recent-customer-box {
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+}
+.recent-customer-img {
+    width: 60px;
+}
+.recent-customer-name {
+    display: block;
+    font-size: 18px;
+}
+.recent-customer-position {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--silver-surfer);
+}

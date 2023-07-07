@@ -1,0 +1,29 @@
+.dashboard-parent-card h5 {
+  font-size: 24px;
+}
+
+.dashboard-parent-card .text-truncate {
+  font-size: 0.9rem;
+  margin-top: 8px;
+  padding: 4px;
+}
+
+.dashboard-cards-title .card-subtitle {
+  font-weight: 400;
+  font-size: 12.07px;
+  letter-spacing: 0.01em;
+  text-decoration-line: underline;
+  color: var(--silver-surfer);
+}
+
+.dashboard-cards-title .card-title {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--cold-steel-color);
+}
+.download, .pay{
+  font-size: 12px;
+}
+.upload{
+  width: 20px;
+}

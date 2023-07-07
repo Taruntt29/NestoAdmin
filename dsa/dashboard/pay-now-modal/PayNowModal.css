@@ -1,0 +1,66 @@
+.pay-now-modal .modal-title {
+  font-weight: 700;
+  font-size: 24px !important;
+  line-height: 48px;
+  color: #000000;
+}
+
+.pay-now-modal p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 37px;
+  color: #282431;
+}
+
+.pay-now-modal input {
+  background: #f6f6f6;
+  border-radius: 3.25605px;
+}
+
+.pay-now-modal-qr-text h3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000;
+}
+
+.pay-now-modal-qr-text h6 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.pay-now-modal button {
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+}
+
+.pay-now-modal input {
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.pay-now-modal .divider {
+  height: 10px;
+  border: 1px solid dashed;
+}
+
+.custom-border {
+  border-top-width: 4px !important;
+  border-top-style: dashed !important;
+  border-top-color: #ccc !important;
+  margin-top: 20px !important;
+  padding-top: 10px !important;
+  border-spacing: 50px !important;
+}
+
+.pay-now-modal .modal-header button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  color: #000000;
+}
